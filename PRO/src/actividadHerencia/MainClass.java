@@ -1,5 +1,7 @@
 package actividadHerencia;
 
+//Commit 2
+
 import actividadHerencia.Objects.People;
 import actividadHerencia.Objects.Students;
 import actividadHerencia.Objects.Teachers;
