@@ -9,7 +9,7 @@ public class DateFormat {
     /**
      * Defines the format that we want.
      */
-    private DateTimeFormatter format = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+    private final DateTimeFormatter format = DateTimeFormatter.ofPattern("dd/MM/yyyy");
 
     /**
      * Constructor for parse our date String to a format recognizable for our computer.

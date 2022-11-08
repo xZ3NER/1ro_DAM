@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="-109.08544705314262" y="128.68791163414397">UML.Actividad3ProyectoJava.Producto</node>
+    <node x="-41.755823144840534" y="-154.63526007778864">UML.Actividad3ProyectoJava.Pedido</node>
+    <node x="142.90634332896053" y="137.6417352981617">UML.Actividad3ProyectoJava.Cliente</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="UML.Actividad3ProyectoJava.Pedido" target="UML.Actividad3ProyectoJava.Cliente" relationship="TO_ONE">
+      <point x="83.16216647380107" y="105.0" />
+      <point x="-91.0" y="-60.5" />
+    </edge>
+    <edge source="UML.Actividad3ProyectoJava.Producto" target="UML.Actividad3ProyectoJava.Pedido" relationship="TO_ONE">
+      <point x="95.50044705314261" y="8.83658560155709E-5" />
+      <point x="113.0" y="200.188" />
+      <point x="113.0" y="111.188" />
+      <point x="67.244" y="111.188" />
+      <point x="-1.7685515946652686E-4" y="105.00026007778865" />
+    </edge>
+    <edge source="UML.Actividad3ProyectoJava.Pedido" target="UML.Actividad3ProyectoJava.Producto" relationship="TO_MANY">
+      <point x="-80.82962390830208" y="105.0" />
+      <point x="0.0" y="-71.5" />
+    </edge>
+    <edge source="UML.Actividad3ProyectoJava.Cliente" target="UML.Actividad3ProyectoJava.Pedido" relationship="TO_MANY">
+      <point x="-72.66216647380105" y="-60.5" />
+      <point x="101.50000000000001" y="105.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="1.2192393736017897" showDependencies="true" x="125.00000000000003" y="68.50000000000003" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

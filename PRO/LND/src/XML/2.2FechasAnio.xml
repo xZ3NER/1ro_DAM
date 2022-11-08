@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="./css/2.2FechasAnioCSS.css"?>
+<fechas>
+    <fecha>
+        <dia>
+            12
+        </dia>
+        <mes>
+            Enero
+        </mes>
+    </fecha>
+    <fecha>
+        <dia>
+            7
+        </dia>
+        <mes>
+            Abril
+        </mes>
+    </fecha>
+    <fecha>
+        <dia>
+            25
+        </dia>
+        <mes>
+            Octubre
+        </mes>
+    </fecha>
+</fechas>

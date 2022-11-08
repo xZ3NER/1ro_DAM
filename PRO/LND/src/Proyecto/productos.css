@@ -1,0 +1,20 @@
+tr td {
+transition: all .5s;
+text-align: center;
+top:0;
+right:0;
+background-color:lightgrey;
+}
+
+tr td:hover {
+position: relative;
+top: 5px;
+right:-5px;
+background-color: black;
+color: white;
+}
+
+a {
+    color:#87D6F0;
+    padding:10px;
+}

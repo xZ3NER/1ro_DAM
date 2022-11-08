@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="-330.270185702489" y="490.8398581200273">UML.Actividad2ProyectoJava.Cono</node>
+    <node x="-337.02104149926487" y="191.1352600417821">UML.Actividad2ProyectoJava.Circulo</node>
+    <node x="0.7278623366926809" y="260.63489952281833">UML.Actividad2ProyectoJava.Punto</node>
+    <node x="-53.27213766330732" y="609.3722199003871">UML.Actividad2ProyectoJava.Actividad2Proyecto</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="UML.Actividad2ProyectoJava.Cono" target="UML.Actividad2ProyectoJava.Circulo" relationship="TO_ONE">
+      <point x="0.0" y="-162.5" />
+      <point x="23.750855796775852" y="110.5" />
+    </edge>
+    <edge source="UML.Actividad2ProyectoJava.Cono" target="UML.Actividad2ProyectoJava.Circulo" relationship="CREATE">
+      <point x="-23.750855796775852" y="-162.5" />
+      <point x="0.0" y="110.5" />
+    </edge>
+    <edge source="UML.Actividad2ProyectoJava.Circulo" target="UML.Actividad2ProyectoJava.Punto" relationship="CREATE">
+      <point x="91.0" y="45.49963948103624" />
+      <point x="-77.0" y="15.0" />
+    </edge>
+    <edge source="UML.Actividad2ProyectoJava.Circulo" target="UML.Actividad2ProyectoJava.Punto" relationship="TO_ONE">
+      <point x="91.0" y="30.49963948103624" />
+      <point x="-77.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.6976744186046512" showDependencies="true" x="-512.1833333333333" y="525.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

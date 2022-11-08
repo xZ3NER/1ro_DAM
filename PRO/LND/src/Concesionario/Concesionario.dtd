@@ -1,0 +1,11 @@
+<!ELEMENT Concesionario (coche+)>
+<!ELEMENT coche (codigo, marca, modelo, matricula+, potencia, plazas, numero_puertas)>
+<!ELEMENT codigo (#PCDATA)>
+<!ELEMENT marca (#PCDATA)>
+<!ELEMENT modelo (#PCDATA)>
+<!ELEMENT matricula (#PCDATA)>
+<!ELEMENT numeros (#PCDATA)>
+<!ELEMENT letras (#PCDATA)>
+<!ELEMENT potencia (#PCDATA)>
+<!ELEMENT plazas (#PCDATA)>
+<!ELEMENT numero_puertas (#PCDATA)>

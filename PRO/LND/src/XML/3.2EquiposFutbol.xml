@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<equipos_de_futbol>
+    <equipo>
+        <nombre>
+            Levante
+        </nombre>
+        <ciudad>
+            Valencia
+        </ciudad>
+        <entrenador/>
+        <jugadores>
+            <jugador posicion="portero">
+                <nombre>
+                    Javier Jiménez
+                </nombre>
+                <nacionalidad>
+                    Española
+                </nacionalidad>
+            </jugador>
+            <jugador posicion="delantero">
+                <nombre>
+                    Nong
+                </nombre>
+                <nacionalidad>
+                    Camerunés
+                </nacionalidad>
+            </jugador>
+        </jugadores>
+    </equipo>
+    <equipo>
+        <nombre>
+            Real Sociedad
+        </nombre>
+        <ciudad>
+            San Sebastián
+        </ciudad>
+        <entrenador/>
+        <jugadores>
+            <jugador posicion="media">
+                <nombre>
+                    David Zurutuza
+                </nombre>
+                <nacionalidad>
+                    Española
+                </nacionalidad>
+            </jugador>
+            <jugador posicion="defensa">
+                <nombre>
+                    Mikel González
+                </nombre>
+                <nacionalidad>
+                    Española
+                </nacionalidad>
+            </jugador>
+        </jugadores>
+    </equipo>
+</equipos_de_futbol>

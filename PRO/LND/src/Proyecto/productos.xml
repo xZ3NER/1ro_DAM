@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE productos SYSTEM "productos.dtd">
+<?xml-stylesheet type="text/xsl" href="productos.xsl"?>
+<productos>
+    <producto>
+        <codigo>1501</codigo>
+        <nombre>Coca Cola Lata</nombre>
+        <categoria>Bebida</categoria>
+        <precio>1.8</precio>
+        <ingredientes/>
+    </producto>
+    <producto>
+        <codigo>1502</codigo>
+        <nombre>Sprite Cristal</nombre>
+        <categoria>Bebida</categoria>
+        <precio>2</precio>
+        <ingredientes/>
+    </producto>
+    <producto>
+        <codigo>2019</codigo>
+        <nombre>Bocadillo Vegetal</nombre>
+        <categoria>Plato Principal</categoria>
+        <precio>2.5</precio>
+        <ingredientes>
+            <ingrediente>Atún</ingrediente>
+            <ingrediente>Millo</ingrediente>
+            <ingrediente>Lechuga</ingrediente>
+            <ingrediente>Tomate</ingrediente>
+        </ingredientes>
+    </producto>
+    <producto>
+        <codigo>3203</codigo>
+        <nombre>Ensaladilla Rusa</nombre>
+        <categoria>Entrante</categoria>
+        <precio>3.2</precio>
+        <ingredientes>
+            <ingrediente>Papas</ingrediente>
+            <ingrediente>Zanahoria</ingrediente>
+            <ingrediente>Guisantes</ingrediente>
+        </ingredientes>
+    </producto>
+    <producto>
+        <codigo>3504</codigo>
+        <nombre>Tarta de manzana</nombre>
+        <categoria>Postre</categoria>
+        <precio>3.5</precio>
+        <ingredientes>
+            <ingrediente>Manzana</ingrediente>
+        </ingredientes>
+    </producto>
+    <producto>
+        <codigo>4902</codigo>
+        <nombre>Hamburguesa de pollo</nombre>
+        <categoria>Plato Principal</categoria>
+        <precio>4.9</precio>
+        <ingredientes>
+            <ingrediente>Pollo</ingrediente>
+            <ingrediente>Lechuga</ingrediente>
+            <ingrediente>Tomate</ingrediente>
+            <ingrediente>Queso</ingrediente>
+        </ingredientes>
+    </producto>
+    <producto>
+        <codigo>7502</codigo>
+        <nombre>Pizza Margarita</nombre>
+        <categoria>Plato Principal</categoria>
+        <precio>7.5</precio>
+        <ingredientes>
+            <ingrediente>Tomate</ingrediente>
+            <ingrediente>Queso</ingrediente>
+        </ingredientes>
+    </producto>
+</productos>

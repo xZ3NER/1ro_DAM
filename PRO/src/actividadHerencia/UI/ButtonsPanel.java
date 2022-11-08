@@ -53,22 +53,16 @@ public class ButtonsPanel extends JPanel {
     private void AddListeners(JButton button) {
 
         if (button.getText().equals("Teacher")) {
-            button.addActionListener(new ActionListener() {
-                @Override
-                public void actionPerformed(ActionEvent e) {
-                    People teacher= MainClass.CreateTeacher();
-                    MainClass.ShowTeacher(teacher);
-                }
+            button.addActionListener(e -> {
+                People teacher= MainClass.CreateTeacher();
+                MainClass.ShowTeacher(teacher);
             });
         }
 
         if (button.getText().equals("Student")) {
-            button.addActionListener(new ActionListener() {
-                @Override
-                public void actionPerformed(ActionEvent e) {
-                    People student = MainClass.CreateStudent();
-                    MainClass.ShowStudent(student);
-                }
+            button.addActionListener(e -> {
+                People student = MainClass.CreateStudent();
+                MainClass.ShowStudent(student);
             });
         }
     }

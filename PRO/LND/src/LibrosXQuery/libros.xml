@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE libros[
+<!ELEMENT libros (libro+)>
+<!ELEMENT libro (cod_libro, titulo, editorial, edicion, isbn, numpaginas, autores)>
+<!ELEMENT cod_libro (#PCDATA)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT editorial (#PCDATA)>
+<!ELEMENT edicion (#PCDATA)>
+<!ELEMENT isbn (#PCDATA)>
+<!ELEMENT numpaginas (#PCDATA)>
+<!ELEMENT autores (autor+)>
+<!ELEMENT autor (cod_autor,nombre,apellidos,fechanacimiento, nacionalidad)>
+<!ELEMENT cod_autor (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT fechanacimiento (#PCDATA)>
+<!ELEMENT nacionalidad (#PCDATA)>
+]>
+<libros>
+	<libro>
+		<cod_libro>1</cod_libro>
+		<titulo>Don Quijote de la Mancha</titulo>
+		<editorial>Juan de la Cuesta</editorial>
+		<edicion>3</edicion>
+		<isbn>9788466845840</isbn>
+		<numpaginas>176</numpaginas>
+		<autores>
+			<autor>
+				<cod_autor>1</cod_autor>
+				<nombre>Miguel</nombre>
+				<apellidos>De Cervantes Saavedra</apellidos>
+				<fechanacimiento>29/09/1547</fechanacimiento>
+				<nacionalidad>Española</nacionalidad>
+			</autor>
+		</autores>
+	</libro>
+	<libro>
+		<cod_libro>2</cod_libro>
+		<titulo>La Celestina</titulo>
+		<editorial>Maxtor</editorial>
+		<edicion>1</edicion>
+		<isbn>9788471664938</isbn>
+		<numpaginas>320</numpaginas>
+		<autores>
+			<autor>
+				<cod_autor>2</cod_autor>
+				<nombre>Fernando</nombre>
+				<apellidos>De Rojas</apellidos>
+				<fechanacimiento>01/01/1470</fechanacimiento>
+				<nacionalidad>Española</nacionalidad>
+			</autor>
+		</autores>
+	</libro>
+	<libro>
+		<cod_libro>3</cod_libro>
+		<titulo>La brújula interior</titulo>
+		<editorial>Urano</editorial>
+		<edicion>1</edicion>
+		<isbn>9788495787910</isbn>
+		<numpaginas>174</numpaginas>
+		<autores>
+			<autor>
+				<cod_autor>3</cod_autor>
+				<nombre>Alex</nombre>
+				<apellidos>Rovira</apellidos>
+				<fechanacimiento>01/03/1969</fechanacimiento>
+				<nacionalidad>Española</nacionalidad>
+			</autor>
+		</autores>
+	</libro>
+	<libro>
+											
+		<cod_libro>4</cod_libro>
+		<titulo>Polvo eres II:Muertes estelares de la humanidad</titulo>
+		<editorial>La esfera de los libros</editorial>
+		<edicion>1</edicion>
+		<isbn>9788499700403</isbn>
+		<numpaginas>412</numpaginas>
+		<autores>
+			<autor>
+				<cod_autor>4</cod_autor>
+				<nombre>Nieves</nombre>
+				<apellidos>Concostrina</apellidos>
+				<fechanacimiento>01/03/1961</fechanacimiento>
+				<nacionalidad>Española</nacionalidad>
+			</autor>
+		</autores>
+	</libro>
+	<libro>
+		<cod_libro>5</cod_libro>
+		<titulo>La huella de un beso</titulo>
+		<editorial>Punto de Lectura</editorial>
+		<edicion>1</edicion>
+		<isbn>9788466324809</isbn>
+		<numpaginas>272</numpaginas>
+		<autores>
+			<autor>
+				<cod_autor>5</cod_autor>
+				<nombre>Daniel</nombre>
+				<apellidos>Glattauer</apellidos>
+				<fechanacimiento>02/04/1960</fechanacimiento>
+				<nacionalidad>Austriaco</nacionalidad>
+			</autor>
+		</autores>
+	</libro>
+	<libro>
+		<cod_libro>6</cod_libro>
+		<titulo>La escuela de Ingredientes esenciales</titulo>
+		<editorial>Suma</editorial>
+		<edicion>1</edicion>
+		<isbn>9788483651469</isbn>
+		<numpaginas>400</numpaginas>
+		<autores>
+			<autor>
+				<cod_autor>6</cod_autor>
+				<nombre>Erica</nombre>
+				<apellidos>Bauermeister</apellidos>
+				<fechanacimiento>25/05/1959</fechanacimiento>
+				<nacionalidad>Estadounidense</nacionalidad>
+			</autor>
+		</autores>
+	</libro>
+	<libro>
+		<cod_libro>7</cod_libro>
+		<titulo>Las viudas de Eastwick</titulo>
+		<editorial>Tusquets Editores</editorial>
+		<edicion>1</edicion>
+		<isbn>9788483833209</isbn>
+		<numpaginas>400</numpaginas>
+		<autores>
+			<autor>
+				<cod_autor>7</cod_autor>
+				<nombre>John</nombre>
+				<apellidos>Updike</apellidos>
+				<fechanacimiento>28/07/1932</fechanacimiento>
+				<nacionalidad>Estadounidense</nacionalidad>
+			</autor>
+		</autores>
+	</libro>
+	<libro>
+		<cod_libro>8</cod_libro>
+		<titulo>La cúpula</titulo>
+		<editorial>Plaza&amp;JanesEditores</editorial>
+		<edicion>1</edicion>
+		<isbn>9788401337529</isbn>
+		<numpaginas>1136</numpaginas>
+		<autores>
+			<autor>
+				<cod_autor>8</cod_autor>
+				<nombre>Stephen</nombre>
+				<apellidos>King</apellidos>
+				<fechanacimiento>21/09/1947</fechanacimiento>
+				<nacionalidad>Estadounidense</nacionalidad>
+			</autor>
+		</autores>
+	</libro>
+	<libro>
+		<cod_libro>9</cod_libro>
+		<titulo>En mares salvajes: Un viaje al ártico</titulo>
+		<editorial>Plaza&amp;JanesEditores</editorial>
+		<edicion>1</edicion>
+		<isbn>9788401347542</isbn>
+		<numpaginas>448</numpaginas>
+		<autores>
+			<autor>
+				<cod_autor>9</cod_autor>
+				<nombre>Javier</nombre>
+				<apellidos>Reverte</apellidos>
+				<fechanacimiento>01/01/1944</fechanacimiento>
+				<nacionalidad>Española</nacionalidad>
+			</autor>
+		</autores>
+	</libro>
+	<libro>
+		<cod_libro>10</cod_libro>
+		<titulo>Las recetas de Dukan</titulo>
+		<editorial>RBA Libros</editorial>
+		<edicion>1</edicion>
+		<isbn>9788492981380</isbn>
+		<numpaginas>320</numpaginas>
+		<autores>
+			<autor>
+				<cod_autor>10</cod_autor>
+				<nombre>Pierre</nombre>
+				<apellidos>Dukan</apellidos>
+				<fechanacimiento>02/09/1934</fechanacimiento>
+				<nacionalidad>Frances</nacionalidad>
+			</autor>
+		</autores>
+	</libro>
+	
+</libros>

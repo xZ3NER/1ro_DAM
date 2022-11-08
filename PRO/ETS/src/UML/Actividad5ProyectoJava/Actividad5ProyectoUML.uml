@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="257.45087755546933" y="-26.541173848029132">UML.Actividad5ProyectoJava.Empleado</node>
+    <node x="41.86919930271432" y="190.77067811693286">UML.Actividad5ProyectoJava.Empresa</node>
+    <node x="-155.0682456097872" y="-6.686087549492271">UML.Actividad5ProyectoJava.Cliente</node>
+    <node x="-405.598879450529" y="257.27067811693286">UML.Actividad5ProyectoJava.Director</node>
+    <node x="359.45932249570694" y="248.20691942692292">UML.Actividad5ProyectoJava.Personas</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="UML.Actividad5ProyectoJava.Cliente" target="UML.Actividad5ProyectoJava.Empresa" relationship="TO_ONE">
+      <point x="79.5" y="0.0" />
+      <point x="170.36919930271432" y="53.81391245050773" />
+      <point x="0.0" y="-116.0" />
+    </edge>
+    <edge source="UML.Actividad5ProyectoJava.Empresa" target="UML.Actividad5ProyectoJava.Cliente" relationship="TO_MANY">
+      <point x="-128.5" y="-14.999678116932841" />
+      <point x="-90.56799999999998" y="291.771" />
+      <point x="-14.999754390212786" y="60.5" />
+    </edge>
+    <edge source="UML.Actividad5ProyectoJava.Director" target="UML.Actividad5ProyectoJava.Empleado" relationship="TO_MANY">
+      <point x="0.0" y="-49.5" />
+      <point x="-271.598879450529" y="-24.18608754949227" />
+      <point x="-88.0" y="-58.14491370146314" />
+    </edge>
+    <edge source="UML.Actividad5ProyectoJava.Empleado" target="UML.Actividad5ProyectoJava.Personas" relationship="GENERALIZATION">
+      <point x="1.2244453068888106E-4" y="60.500173848029135" />
+      <point x="345.451" y="153.0" />
+      <point x="457.959" y="153.0" />
+      <point x="-3.224957069392076E-4" y="-60.49991942692293" />
+    </edge>
+    <edge source="UML.Actividad5ProyectoJava.Empresa" target="UML.Actividad5ProyectoJava.Empleado" relationship="TO_MANY">
+      <point x="-128.50019930271432" y="3.2188306715852377E-4" />
+      <point x="23.0" y="306.771" />
+      <point x="23.0" y="33.959" />
+      <point x="-87.99987755546931" y="1.738480291315625E-4" />
+    </edge>
+    <edge source="UML.Actividad5ProyectoJava.Cliente" target="UML.Actividad5ProyectoJava.Personas" relationship="GENERALIZATION">
+      <point x="2.456097872141072E-4" y="60.500087549492264" />
+      <point x="-75.56799999999998" y="153.0" />
+      <point x="457.959" y="153.0" />
+      <point x="-3.224957069392076E-4" y="-60.49991942692293" />
+    </edge>
+    <edge source="UML.Actividad5ProyectoJava.Director" target="UML.Actividad5ProyectoJava.Empleado" relationship="GENERALIZATION">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.71875" showDependencies="true" x="26.0" y="215.00000000000003" />
+  <SelectedNodes>
+    <node>UML.Actividad5ProyectoJava.Director</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

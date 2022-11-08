@@ -15,12 +15,7 @@ public class Patterns {
     public static boolean DniCheck(String dni) {
         String stringPattern = "^[0-9]{8}[TRWAGMYFPDXBNJZSQVHLCKE]$";
 
-        if (PatternCompiler(stringPattern,dni) && CheckDniLetter(dni)) {
-            return true;
-        }
-        else {
-            return false;
-        }
+        return PatternCompiler(stringPattern, dni) && CheckDniLetter(dni);
     }
 
     /**
@@ -34,8 +29,7 @@ public class Patterns {
 
         char dniCharacter= characters.charAt(dniNumbers%23);
 
-        if (dniCharacter==dni.charAt(8)) return true;
-        else return false;
+        return dniCharacter == dni.charAt(8);
     }
 
     /**
@@ -46,12 +40,7 @@ public class Patterns {
     public static boolean NrpCheck(String nrp) {
         String stringPattern = "^[0-9]{8}[TRWAGMYFPDXBNJZSQVHLCKE][0-9]{2}[ASIY][0-9]{4}$";
 
-        if (PatternCompiler(stringPattern, nrp) && CheckDniLetter(nrp) && CheckNrpNumbers(nrp)) {
-            return true;
-        }
-        else {
-            return false;
-        }
+        return PatternCompiler(stringPattern, nrp) && CheckDniLetter(nrp) && CheckNrpNumbers(nrp);
     }
 
     /**
@@ -65,11 +54,8 @@ public class Patterns {
         int firstNumber = dniNumbers%7;
         int secondNumber = firstNumber+2;
 
-        if (firstNumber == Integer.parseInt(String.valueOf(nrp.charAt(9)))
-                && secondNumber == Integer.parseInt(String.valueOf(nrp.charAt(10)))) {
-            return true;
-        }
-        else return false;
+        return firstNumber == Integer.parseInt(String.valueOf(nrp.charAt(9)))
+                && secondNumber == Integer.parseInt(String.valueOf(nrp.charAt(10)));
     }
 
     /**
@@ -129,11 +115,6 @@ public class Patterns {
         Pattern pattern = Pattern.compile(stringPattern,Pattern.CASE_INSENSITIVE);
 
         Matcher matcher = pattern.matcher(input);
-        if (matcher.matches()) {
-            return true;
-        }
-        else {
-            return false;
-        }
+        return matcher.matches();
     }
 }

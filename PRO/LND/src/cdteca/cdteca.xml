@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE cdteca SYSTEM "cdteca.dtd">
+<!--<?xml-stylesheet type="text/xsl" href="cdteca_2.xsl"?>-->
+<!--<?xml-stylesheet type="text/xsl" href="cdteca_3.xsl"?>-->
+<?xml-stylesheet type="text/xsl" href="cdteca_4.xsl"?>
+<!--<?xml-stylesheet type="text/xsl" href="cdteca_5.xsl"?>-->
+<cdteca>
+    <cd>
+        <titulo>La Carretera</titulo>
+        <artista>Julio Iglesias</artista>
+        <sello>Sony BMG</sello>
+        <año>1995</año>
+        <canciones tiempo="281">La Carretera</canciones>
+        <canciones tiempo="233">Cosas de la Vida</canciones>
+        <canciones tiempo="230">Baila Morena</canciones>
+        <canciones tiempo="216">Derroche</canciones>
+        <canciones tiempo="206">El ultimo verano</canciones>
+        <canciones tiempo="268">Agua Dulce, Agua Sala</canciones>
+        <canciones tiempo="254">Sin Excusas Ni Rodeos</canciones>
+        <canciones tiempo="164">Mal de Amores</canciones>
+        <canciones tiempo="247">Rumbas</canciones>
+        <canciones tiempo="191">Vuela Alto</canciones>
+    </cd>
+    <cd>
+        <titulo>Yo soy aquel</titulo>
+        <artista>Raphael</artista>
+        <sello>Hispavox</sello>
+        <año>1966</año>
+        <canciones tiempo="162">Yo soy aquel</canciones>
+        <canciones tiempo="130">Es verdad</canciones>
+        <canciones tiempo="201">La noche</canciones>
+        <canciones tiempo="185">Hasta Venecia</canciones>
+    </cd>
+    <cd>
+        <titulo>Have a nice day</titulo>
+        <artista>Jon Bon Jovi</artista>
+        <sello>Island Records</sello>
+        <año>2005</año>
+        <canciones tiempo="216">Have A Nice Day</canciones>
+        <canciones tiempo="229">I Wanna Be Loved</canciones>
+        <canciones tiempo="227">Welcome To Wherever You Are</canciones>
+        <canciones tiempo="230">Who Says You Can't Go Home?</canciones>
+        <canciones tiempo="271">Last Man Standing</canciones>
+        <canciones tiempo="296">Bells Of Freedom</canciones>
+        <canciones tiempo="254">Wildflowers</canciones>
+        <canciones tiempo="218">Last Cigarette</canciones>
+        <canciones tiempo="234">I Am</canciones>
+        <canciones tiempo="217">Complicated</canciones>
+        <canciones tiempo="289">Novocaine</canciones>
+        <canciones tiempo="249">Story Of My Life</canciones>
+        <canciones tiempo="234">Dirty Little Secret</canciones>
+    </cd>
+    <cd>
+        <titulo>La Vida Es</titulo>
+        <artista>Nek</artista>
+        <sello>Island Records</sello>
+        <año>2000</año>
+        <canciones tiempo="213">Llegas Tu</canciones>
+        <canciones tiempo="246">Miami</canciones>
+        <canciones tiempo="209">La Vida Es</canciones>
+        <canciones tiempo="237">Nuestro Mejor Dia</canciones>
+        <canciones tiempo="210">Lleno De Energia</canciones>
+        <canciones tiempo="256">En El Tren</canciones>
+        <canciones tiempo="226">Celos</canciones>
+        <canciones tiempo="257">Vivire</canciones>
+        <canciones tiempo="215">Volver A Vivir</canciones>
+        <canciones tiempo="254">Creo</canciones>
+        <canciones tiempo="223">Comenzar De Cero</canciones>
+        <canciones tiempo="214">Tu Me Das</canciones>
+        <canciones tiempo="233">Lejos De Mi</canciones>
+        <canciones tiempo="225">Llegas Tu</canciones>
+    </cd>
+    <cd>
+        <titulo>Can't get enough</titulo>
+        <artista>Barry White</artista>
+        <sello>20th Century</sello>
+        <año>1974</año>
+        <canciones tiempo="112">Mellow Mood (Pt. 1)</canciones>
+        <canciones tiempo="276">You're the First, the Last, My Everything</canciones>
+        <canciones tiempo="621">I Can't Believe You Love Me</canciones>
+        <canciones tiempo="274">Can't Get Enough of Your Love, Babe</canciones>
+        <canciones tiempo="234">Oh Love, Well We Finally Made It </canciones>
+        <canciones tiempo="299">I Love You More Than Anything (In This World Girl)</canciones>
+        <canciones tiempo="83">Mellow Mood (Pt. 2)</canciones>
+    </cd>
+    <cd>
+        <titulo>Abbey Road</titulo>
+        <artista>The Beatles</artista>
+        <sello>Apple Records</sello>
+        <año>1969</año>
+        <canciones tiempo="260">Come Together</canciones>
+        <canciones tiempo="183">Something</canciones>
+        <canciones tiempo="207">Maxwell's Silver Hammer</canciones>
+        <canciones tiempo="206">Oh! Darling</canciones>
+        <canciones tiempo="171">Octopus's Garden</canciones>
+        <canciones tiempo="467">I Want You (She's So Heavy)</canciones>
+    </cd>
+    <cd>
+        <titulo>Thriller</titulo>
+        <artista>Michael Jackson</artista>
+        <sello>Epic Records</sello>
+        <año>1982</año>
+        <canciones tiempo="362">Wanna Be Startin' Somethin'</canciones>
+        <canciones tiempo="260">Baby Be Mine</canciones>
+        <canciones tiempo="222">The Girl Is Mine</canciones>
+        <canciones tiempo="357">Thriller</canciones>
+        <canciones tiempo="259">Beat It</canciones>
+        <canciones tiempo="294">Billie Jean</canciones>
+        <canciones tiempo="245">Human Nature</canciones>
+        <canciones tiempo="238">P.Y.T (Pretty Young Thing)</canciones>
+        <canciones tiempo="299">The Lady In My Life</canciones>
+    </cd>
+    <cd>
+        <titulo>Pies descalzos</titulo>
+        <artista>Shakira</artista>
+        <sello>Sony BMG</sello>
+        <año>1995</año>
+        <canciones tiempo="231">Estoy aquí</canciones>
+        <canciones tiempo="254">Antologia</canciones>
+        <canciones tiempo="244">Un poco de amor</canciones>
+        <canciones tiempo="252">Quiero</canciones>
+        <canciones tiempo="240">Te necesito</canciones>
+        <canciones tiempo="234">Vuelve</canciones>
+        <canciones tiempo="204">Te espero sentada</canciones>
+        <canciones tiempo="206">Pies descalzos, suenos blancos</canciones>
+        <canciones tiempo="150">Pienso en ti </canciones>
+        <canciones tiempo="232">Donde estas corazon?</canciones>
+        <canciones tiempo="218">Se quiere, se mata</canciones>
+    </cd>
+</cdteca>

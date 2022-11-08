@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<triangulos>
+    <triangulo>
+        <base>
+            7
+        </base>
+        <altura>
+            5
+        </altura>
+    </triangulo>
+    <triangulo>
+        <base>
+            2
+        </base>
+        <altura>
+            6
+        </altura>
+    </triangulo>
+    <triangulo>
+        <base>
+            3
+        </base>
+        <altura>
+            3
+        </altura>
+    </triangulo>
+</triangulos>

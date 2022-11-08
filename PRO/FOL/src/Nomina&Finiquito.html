@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="nominaFiniquitoJS.js"></script>
+  <title>Nómina y Finiquito</title>
+</head>
+<body >
+<div id="fontSizeDiv">
+    <div>
+        <h1 style="float:left; margin-left:300px;font-family:Candara Light;">Cálculo Nómina</h1>
+        <h1 style="float:right; margin-right:300px;font-family:Candara Light;">Cálculo Finiquito</h1>
+    </div>
+    <br><br><br><br><br>
+    <hr style="width:95%", size="2", color=black>
+    <div style="float:left; margin-left:350px;">
+        <div>
+            <h2 style="font-family:Candara Light;"><i>DEVENGOS</i></h2>
+            <h3 style="margin-left:-130px;font-family:Candara Light;">
+                Salario base: <input type="number" id="inputSalarioBase" min="0" required placeholder="Obligatorio" onchange="calculoNomina()"> €
+                <br><br>
+                Gratificaciones extraordinarias: <input type="number" id="inputPagasExtras" disabled> €
+                <br><br><br>
+                TOTAL DEVENGADO: <input type="number" id="inputTotalDevengado" disabled> €
+            </h3>
+        </div>
+        <hr style="width:230%;margin-left:-310px", size="1", color=black>
+        <div>
+            <h2 style="font-family:Candara Light;margin-left:-20px"><i>DEDUCCIONES</i></h2>
+            <h3 style="margin-left:-130px;font-family:Candara Light;">
+                Seguridad social (6,4%): <input type="number" id="inputSegSocial" disabled> €
+                <br><br>
+                IRPF: <input type="number" min="0" max="100" value="0" id="input%IRPF" onchange="calculoNomina()">  %
+                <input type="number" id="inputIRPF" disabled> €
+                <br><br>
+                Anticipos: <input type="number" id="inputAnticipos" value="0" min="0" onchange="calculoNomina()"> €
+                <br><br>
+                Embargos: <input type="number" id="inputEmbargos" value="0" min="0" onchange="calculoNomina()"> €
+                <br><br>
+                Ajustes: <input type="number" id="inputAjustes" value="0" min="0" onchange="calculoNomina()"> €
+                <br><br><br>
+                TOTAL A DEDUCIR: <input type="number" id="inputTotalDeducido" disabled> €
+            </h3>
+        </div>
+    </div>
+    <br>
+    <div style="float:right;">
+        <div>
+            <h3 style="font-family:Candara Light;margin-right:50px">
+                Salario Base: <input type="number" id="inputSB" min="0" required placeholder="Obligatorio" onchange="calculoFiniquito()"> €
+                <br><br>
+                Nómina (brutos): <input type="number" id="inputNomina" disabled> €
+                <br><br>
+                Pagas extras <u>no</u> incluidas: <input type="number" id="inputPagasExtrasNI" min="0" value="0" onchange="calculoFiniquito()"> €
+                <br><br>
+                Atrasos: <input type="number" id="inputAtrasos" min="0" value="0" onchange="calculoFiniquito()"> €
+                <br><br>
+                Ajustes: <input type="number" id="inputAjustesFiniquito" min="0" value="0" onchange="calculoFiniquito()"> €
+                <br><br>
+                Comisiones: <input type="number" id="inputComisiones" min="0" value="0" onchange="calculoFiniquito()"> €
+                <br><br>
+                Días de <u>no</u> preaviso: <input type="number" id="inputDiasNoAviso" min="0" value="0" onchange="calculoFiniquito()"> €
+                <br><br>
+                Vacaciones <u>no</u> disfrutadas (30 días por año):
+                <input type="number" id="inputVacacionesDias" min="0" max="99999" value="0" onchange="calculoFiniquito()"> días
+                <input type="number" id="inputVacacionesEuros" disabled min="0" max="99999"> €
+                <br><br>
+                IRPF: <input type="number" min="0" max="100" value="0" id="input%IRPFFini" onchange="calculoFiniquito()">  %
+                 - <input type="number" id="inputIRPFFini" disabled> €
+                <br><br>
+                Seguridad social (6,4%): - <input type="number" id="inputSegSocialFini" disabled> €
+                <br><br>
+                Años trabajado: <input type="number" id="inputAnios" min="0" max="60" onchange="calculoFiniquito()" value="0"> años
+                <br><br>
+                Indemnización:
+                <select id="seleccionIndemnizacion" onchange="calculoFiniquito()">
+                    <option value="ninguno">Ninguno</option>
+                    <option value="despidoProcedente">Despido Objetivo Procedente</option>
+                    <option value="despidoImprocedente">Despido Improcedente</option>
+                    <option value="contratoTemporal">Fin de contrato temporal</option>
+                    <option value="muerteInvalidez">Muerte/Invalidez Empresario</option>
+                    <option value="jubilacion">Jubilación Trabajador</option>
+                    <option value="fuerzaMayor">Fuerza Mayor</option>
+                </select>
+                <input type="text" id="inputIndemnizacionEuros" disabled> €
+            </h3>
+        </div>
+        <br>
+        <hr style="width:232%;margin-left:-850px;margin-right:1420px", size="1", color=black>
+        <div style="font-family:Candara Light;margin-left:-680px;float:left">
+            <h2 align="center" style="padding-right:200px">
+                <i>LÍQUIDO TOTAL A PERCIBIR: </i>
+                <input type="number" id="inputTotal" disabled> €
+            </h2>
+        </div>
+        <div style="font-family:Candara Light;margin-left:-620px;float:right">
+            <h2 align="center" style="padding-right:200px">
+                <i>TOTAL A PERCIBIR: </i>
+                <input type="number" id="inputTotalFini" disabled> €
+            </h2>
+        </div>
+    </div>
+    <footer>
+        <div style="box-shadow: -2px -3px 5px #DCDCDC;text-align: center;position: absolute;left: 0px;right: 0px;bottom: -180px;height:60px">
+            <p style="font-family:Candara">
+                Peng You - 1º DAM CIFP Villa de Agüimes
+            </p>
+        </div>
+    </footer>
+</div>
+</body>
+</html>

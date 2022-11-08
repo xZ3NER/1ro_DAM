@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Calculadora/Calculadora.iml" filepath="$PROJECT_DIR$/Calculadora/Calculadora.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PRO/ETS/ETS.iml" filepath="$PROJECT_DIR$/PRO/ETS/ETS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/IdeaProjects.iml" filepath="$PROJECT_DIR$/.idea/IdeaProjects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PRO/PRO.iml" filepath="$PROJECT_DIR$/PRO/PRO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RestaurantDataBase/RestaurantDataBase.iml" filepath="$PROJECT_DIR$/RestaurantDataBase/RestaurantDataBase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tests/Tests.iml" filepath="$PROJECT_DIR$/Tests/Tests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VehicleDataBase/VehicleDataBase.iml" filepath="$PROJECT_DIR$/VehicleDataBase/VehicleDataBase.iml" />
+    </modules>
+  </component>
+</project>

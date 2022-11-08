@@ -1,0 +1,9 @@
+M676981,Rhinospray antialergico,6.57,12,No,No
+N182985,Farline Propolis,6.74,30,Farline
+N173100,Valeriana 30,7.24,100,Kneipp
+M666107,Dalsy 20,8.21,8,Si,Si
+M658244,Paracetamol 500,4.32,40,Si,No
+N166420,Nutira Forte,10.24,5,Salvat
+N186618,Colilen,26.80,10,Aboca
+M689380,Couldina instant,9.89,25,No,No
+M819144,Ibuprofeno Normon 20,7.25,15,Si,Si

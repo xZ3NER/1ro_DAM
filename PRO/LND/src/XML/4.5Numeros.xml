@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<numeros>
+    <numero palabra="Uno">
+        1
+    </numero>
+    <numero palabra="Dos">
+        2
+    </numero>
+    <numero palabra="Seis">
+        6
+    </numero>
+</numeros>

@@ -1,0 +1,8 @@
+<!ELEMENT cdteca (cd+)>
+<!ELEMENT cd (titulo,artista,sello,año,canciones+)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT artista (#PCDATA)>
+<!ELEMENT sello (#PCDATA)>
+<!ELEMENT año (#PCDATA)>
+<!ELEMENT canciones (#PCDATA)>
+<!ATTLIST canciones tiempo CDATA #REQUIRED>

@@ -27,7 +27,7 @@ public class MainClass {
     private static void SetOptionPaneStyle() {
         UIManager.put("OptionPane.minimumSize",new Dimension(300,200));
         UIManager.put("Button.background", new Color(185, 185, 185));
-        UIManager.put("OptionPane.okButtonText", "Next");
+        UIManager.put("OptionPane.okButtonText", "Continue");
         UIManager.put("OptionPane.cancelButtonText", "Exit");
         UIManager.put("OptionPane.messageFont",new Font("Candara",Font.BOLD,20));
         UIManager.put("TextField.font", new Font("Candara Light",Font.PLAIN,20));

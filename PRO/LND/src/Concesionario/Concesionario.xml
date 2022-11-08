@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE Concesionario SYSTEM "./Concesionario.dtd">
+<Concesionario xmlns="https://www.w3schools.com">
+    <coche>
+        <codigo>34213</codigo>
+        <marca>Ford</marca>
+        <modelo>Focus</modelo>
+        <matricula>4321 AES</matricula>
+        <potencia>270</potencia>
+        <plazas>5</plazas>
+        <numero_puertas>4</numero_puertas>
+    </coche>
+    <coche>
+        <codigo>32153</codigo>
+        <marca>Seat</marca>
+        <modelo>Ibiza</modelo>
+        <matricula>6423 EKS</matricula>
+        <potencia>260</potencia>
+        <plazas>5</plazas>
+        <numero_puertas>4</numero_puertas>
+    </coche>
+</Concesionario>

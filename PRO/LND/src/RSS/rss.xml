@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<rss version="0.91">
+    <channel>
+        <title>Componentes Informáticos</title>
+        <link>https://componentes.es</link>
+        <description>Blog con Componentes Informáticos</description>
+        <language>es-es</language>
+        <copyright></copyright>
+        <managingEditor>
+            admin@componentes.es(Peng You)
+        </managingEditor>
+        <webMaster>
+            admin@componentes.es(Peng You)
+        </webMaster>
+        <pubDate>Wed,25 May 22 09:21:00 GMT</pubDate>
+        <image>
+            <title>Componentes Informáticos</title>
+            <url>https://componentes.es/logo.jpg</url>
+            <link>https://componentes.es</link>
+            <width>140</width>
+            <height>120</height>
+            <description>
+                Blog con Componentes Informáticos
+            </description>
+        </image>
+
+        <item>
+            <title>Hardware</title>
+            <link>
+                https://componentes.es/comp/hardware
+            </link>
+            <description>
+                Componentes Hardware más útiles
+            </description>
+            <author>
+                admin@componentes.webdeblogs.es(Peng You)
+            </author>
+            <guid>
+                https://componentes.webdeblogs.es/comp/hardware
+            </guid>
+            <pubDate>Wed,25 May 22 09:21:00 GMT</pubDate>
+        </item>
+
+        <item>
+            <title>Software</title>
+            <link>
+                https://componentes.es/comp/software
+            </link>
+            <description>
+                Componentes Software más útiles
+            </description>
+            <author>
+                admin@componentes.webdeblogs.es(Peng You)
+            </author>
+            <guid>
+                https://componentes.webdeblogs.es/comp/software
+            </guid>
+            <pubDate>Wed,25 May 22 09:21:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
